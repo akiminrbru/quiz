@@ -1,0 +1,55 @@
+.map {
+    &__header {
+        color: #e8e8e9;
+        text-align: center;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    &__btn {
+        margin-top: 30px;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 40px;
+
+        button {
+            cursor: pointer;
+            padding: 15px 45px;
+            background: #ccedff;
+            border-radius: 45px;
+            border: 0;
+            font-weight: 700;
+            font-size: 20px;
+            color: #1c1e21;
+        }
+    }
+
+    &__answer {
+        display: flex;
+        justify-content: center;
+        max-width: 500px;
+        padding: 20px;
+        margin: 0 auto;
+        background-color: #1c1e21;
+        border-radius: 45px;
+
+        &_km {
+            font-weight: 700;
+            font-size: 20px;
+            color: #ccedff;
+
+            span {
+                color: #647781;
+            }
+        }
+    }
+
+    &__score {
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+        color: #ccedff;
+        font-weight: 600;
+        font-size: 20px;
+    }
+}

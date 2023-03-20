@@ -1,0 +1,29 @@
+.mapPage {
+    background-color: #313439;
+    min-height: 100vh;
+
+    &__header {
+        color: #e8e8e9;
+        text-align: center;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    &__btn {
+        padding-top: 30px;
+        display: flex;
+        justify-content: flex-end;
+        button {
+            cursor: pointer;
+            width: 166px;
+            height: 60px;
+            background: #1c1e21;
+            border-radius: 45px;
+            border: 0;
+            font-weight: 400;
+            font-size: 22px;
+            line-height: 27px;
+            color: rgba(180, 180, 180, 0.3);
+        }
+    }
+}
